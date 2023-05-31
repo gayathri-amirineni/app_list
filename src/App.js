@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Form from "./Components/Form/Form";
 import Card from "./Components/Card/Card";
 import NavBar from "./Components/Navbar/Navbar";
-
+import CardsDetails from "./Components/CardsDetails/CardsDetails"
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Form />} />
           <Route path="/card" element={<Card />} />
+          <Route path="/cards/:slug" element={<CardsDetails />} />
         </Routes>
       </>
     </div>
