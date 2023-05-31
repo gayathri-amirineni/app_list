@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 const NavBar = () => {
  return (
  <nav>
+   <div>Navbar</div>
        <ul>
           <li>
              <Link to="/">Form</Link>
